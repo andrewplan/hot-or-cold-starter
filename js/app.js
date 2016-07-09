@@ -10,7 +10,7 @@ function newGame() {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
     secretNumber = getRandomIntInclusive(1, 100);
-    alert(secretNumber);
+    //alert(secretNumber);
 };
 
 /*--- function (counter) that tracks how many guesses have been made and display in span#count ---*/
