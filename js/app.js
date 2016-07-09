@@ -30,7 +30,7 @@ function addGuessToList(guessToAdd) {
 var userGuess; 
 function guessFeedback(secretNumberNow, userGuessNow) {
     var theDifference = Math.abs(secretNumberNow - userGuessNow);
-    alert(theDifference);
+    //alert(theDifference);
     if (theDifference >= 50) {
         $("h2#feedback").text("Ice cold!");
     }
